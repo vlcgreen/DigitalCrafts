@@ -14,3 +14,14 @@ When program executes 3 main things are needed.
         -call stack (keeping track of function calls)
     
 
+Programming Concepts
+    variables, data types, print and format strings, conditionals, loops, handling errors
+
+Basic Data Types 
+    -String
+    -Integer 
+    -Float 
+    -Boolean
+we categorize data types in order to make meaningful relationships between data. 
+
+
