@@ -24,4 +24,27 @@ Basic Data Types
     -Boolean
 we categorize data types in order to make meaningful relationships between data. 
 
+Now we are working in a py file and doing hands on stuff. 
+
+Booleans
+    Python type for storing true and false values (called bool)
+    In numberic contexts they're represented by 0 and 1. 
+
+Variables 
+
+Identifiers 
+
+Built in Functions: 
+print(), input(), int(), type(), isinstance(), math Functions
+
+
+INT() is casting in most languages. 
+
+Conditions 
+
+    -sounds like choose your own adventure....
+
+conditional operators
+logical operators
+if, elif, else
 
