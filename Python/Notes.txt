@@ -1,0 +1,12 @@
+Day 2 Notes:
+
+- compiled language v interpreted language
+Compiled language converted directly into machine code that processor can execute.
+    ex. of compiled is C, C++ ends in .exe 
+Interpreted Language run line by line to execute each command.
+    ex. of interpreted is Python, Ruby, Java, C#
+    
+-- one difference between the two would be speed
+
+
+
