@@ -8,5 +8,9 @@ Interpreted Language run line by line to execute each command.
     
 -- one difference between the two would be speed
 
-
+When program executes 3 main things are needed. 
+        -memory heap (where we put things in temp memory) [type of data structure]
+        -execution context (reading a line, completes, and goes to next line)
+        -call stack (keeping track of function calls)
+    
 
