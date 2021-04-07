@@ -3,8 +3,17 @@
 # PROBLEM 1. TIP CALCULATOR
 
 
-# #This is to get the input for the total bill
-total_bill_amount = float(input("Your total bill >>  "))
+# This is to get the input for the total bill
+# total_bill_amount = float(input("Your total bill >>  "))
+# Verifying they put the correct type of data
+while True:
+    try:
+        total_bill_amount = float(input("Your total bill >>  "))
+        break
+    except ValueError:
+        print("Please only enter numbers")
+print(total_bill_amount)
+
 
 #Find out how service was to define service tip amount to be used
 service_level = input("How was your service? \n1 - good, 2 - fair, or 3 - bad? ")
