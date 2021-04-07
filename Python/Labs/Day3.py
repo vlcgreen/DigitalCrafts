@@ -59,3 +59,12 @@ listA = [1, 2, 3, 4]
 listB = [5, 6, 7, 8]
 listC = listA + listB
 print(listC)
+
+s = 5
+
+##What if 
+
+a = 4
+b = a
+b = 7
+print
