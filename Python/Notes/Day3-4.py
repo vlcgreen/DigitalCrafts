@@ -98,16 +98,32 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 # print (reverse)
 
 ##Printing reverse of a neg number
-num = -9854
-sign = -1
-sn = str(abs(num))
-rev_num = ""
+# num = -9854
+# sign = -1
+# sn = str(abs(num))
+# rev_num = ""
 
-for n in sn:
-    rev_num = n + rev_num
-rev_num = int(rev_num)
-if num < 0 :
-    print (rev_num*sign)
-else:
-    print(rev_num)
+# for n in sn:
+#     rev_num = n + rev_num
+# rev_num = int(rev_num)
+# if num < 0 :
+#     print (rev_num*sign)
+# else:
+#     print(rev_num)
+
+# for outter in range(1,11):
+#     for inner in range(1,11):
+#         print(outter, inner)
+
+# for minutes in range(1,5): #[1, 2, 3, 4]
+#     print(f"minutes {minutes}")
+#     for seconds in range(1,3): #[1, 2]
+#         print(seconds)
+
+
+
+
+for num1 in range (1,11):
+    for num2 in range(1, 11):
+        print(num1, "x", num2,"=",num1*num2)
 
