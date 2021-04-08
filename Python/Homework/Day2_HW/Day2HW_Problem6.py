@@ -13,4 +13,3 @@ for line in range (1, 11):
             print(f"{row} x {num1} = {row*num1} ")
 
 
-
