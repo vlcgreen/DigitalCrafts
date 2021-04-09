@@ -1,0 +1,39 @@
+Functions Friday!
+
+
+In Python, you create a function by:
+
+1. Using the def keyword
+2. Naming the function
+3. Declaring parameters ("ingredients") *not mandatory
+4. Providing the body of the function as a code block
+          1      2      3
+    ex.  def myFunction():
+              4
+            print('hello world')
+
+Function parts: def keyword, name, parameters, body
+This pattern will occur across every lang
+
+2. make names of functions very descriptive so you don't confuse yourself later.
+4. you indent for the body... when you're not ind anymore it'll be the end of code
+
+What is the difference between loop and func?
+
+-loop is not reusable block of code. 
+-func is reusable
+-loop can execute a func several times
+=func can contain a loop
+-func acts as a sub. 
+
+
+naming convention. Camel case. second word capitalized
+
+*Though they are technically different, programmers often use the terms "parameter" and "argument" interchangeably.
+*Parameters (or the "formal parameter list") is part of a function's definition.
+*Arguments are the values provided when a function is called. These are the values that are used while the function body is running.
+
+
+**if you write a func and expecting val to be returned and get back NONE instead, check return statements. 
+
+
