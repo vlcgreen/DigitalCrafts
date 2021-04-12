@@ -1,15 +1,17 @@
 #Leetspeak
 ##Given a paragraph of text as string, print the paragraph in leetspeak.
 
-string = "I am a leet programmer"
+### HAVING ISSUES FIGURING OUT THIS PROBLEM. 
 
-A = '4'
-E = '3'
-G = '6'
-I = '1'
-O = '0'
-S = '5'
-T = '7'
+# string = "I am a leet programmer"
+
+# A = '4'
+# E = '3'
+# G = '6'
+# I = '1'
+# O = '0'
+# S = '5'
+# T = '7'
 
 # code = list(string)
 # index = 0
@@ -18,3 +20,7 @@ T = '7'
 #         code[index] = '4'
 #         index += 1
 # print(code)
+
+##Having issues figuring this problem out.
+
+print('hello world')
