@@ -18,4 +18,6 @@ print(cipherbet)
 
 ## Now that I have my working cypher I need to figure out how to replace each letter
 
-
+# need program to check index/pos for cypher letter with cypherbet,
+# then whatever that index number is use it to pull same index from alpha
+# replace the decipher text letter with whatever is in alpha[index]
