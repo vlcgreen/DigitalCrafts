@@ -10,7 +10,7 @@ with open('phonebook.pickle', 'rb') as fh:
 
 #1. Look up an entry
 def LookUp(name):
-    print(f"Found entry for {name}: {phonebook_dict[name]}")
+    print(f"\nFound entry for {name}: {phonebook_dict[name]}")
 #2. Set an entry
 def entry():
     entry_name = input("\nWhat name do you want to enter? ")
@@ -28,8 +28,9 @@ def delete(name):
 #4. List all entries
 def all_entries():
     # print(phonebook_dict)
+    print("\n\nThe following are found entries in the phonebook:\n")
     for x in phonebook_dict:
-        print(f"{x} : {phonebook_dict[x]}")
+        print(f"{x}: {phonebook_dict[x]}")
 
 # Ask user for input 
 ## What do you want to do 1-5?
