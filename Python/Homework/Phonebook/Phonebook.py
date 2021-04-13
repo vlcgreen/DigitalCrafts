@@ -23,7 +23,10 @@ def entry():
 #3. Delete an entry
 def delete(name):
     del phonebook_dict[name]
+    with open('phonebook.pickle', 'wb') as fh:
+        pickle.dump(phonebook_dict, fh)
     print(f"You have deleted the entry for {name}")
+
 
 #4. List all entries
 def all_entries():
