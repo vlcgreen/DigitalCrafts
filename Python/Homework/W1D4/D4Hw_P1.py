@@ -21,4 +21,3 @@ while index < len(list1):
     index += 1 
 
 print (small)
-
