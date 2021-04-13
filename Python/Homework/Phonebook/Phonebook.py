@@ -1,14 +1,15 @@
 #Working on phonebook
+
 import pickle
 
-phonebook_dict = {
-    
-}
+# with open('phonebook.pickle', 'wb') as fh:
+#     pickle.dump(phonebook_dict, fh)
+
+with open('phonebook.pickle', 'rb') as fh:
+    phonebook_dict = pickle.load(fh)
 
 #1. Look up an entry
 def LookUp(name):
-    with open('phonebook.pickle', 'rb') as fh:
-        phonebook_dict = pickle.load(fh)
     print(f"Found entry for {name}: {phonebook_dict[name]}")
 #2. Set an entry
 def entry():
