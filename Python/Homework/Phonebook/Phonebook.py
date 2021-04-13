@@ -27,7 +27,9 @@ def delete(name):
 
 #4. List all entries
 def all_entries():
-    print(phonebook_dict)
+    # print(phonebook_dict)
+    for x in phonebook_dict:
+        print(f"{x} : {phonebook_dict[x]}")
 
 # Ask user for input 
 ## What do you want to do 1-5?
